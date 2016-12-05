@@ -2,10 +2,7 @@ ifeq ($(COS_RELEASE),true)
 LOCAL_PATH:= $(call my-dir)
 include $(CLEAR_VARS)
 
-ifneq ($(ANDROID_BUILD_TOP),)
-    $(shell cp -u $(ANDROID_BUILD_TOP)/ota_conf $(LOCAL_PATH)/app/src/main/assets/)
-endif
-
+$(shell $LOCAL_PATH/gen_ota_conf )
 LOCAL_MODULE_TAGS := optional
 LOCAL_PRIVILEGED_MODULE := true
 LOCAL_PACKAGE_NAME := CosmicOTA
