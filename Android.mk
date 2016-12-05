@@ -1,3 +1,4 @@
+ifeq ($(COS_RELEASE),true)
 LOCAL_PATH:= $(call my-dir)
 include $(CLEAR_VARS)
 
@@ -27,3 +28,4 @@ include $(CLEAR_VARS)
 LOCAL_PREBUILT_STATIC_JAVA_LIBRARIES := libcwac:app/libs/cwac-wakeful-1.0.5.jar
 
 include $(BUILD_MULTI_PREBUILT)
+endif #COS_RELEASE
