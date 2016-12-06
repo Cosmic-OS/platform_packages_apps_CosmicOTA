@@ -2,7 +2,7 @@ ifeq ($(COS_RELEASE),true)
 LOCAL_PATH:= $(call my-dir)
 include $(CLEAR_VARS)
 
-$(shell $LOCAL_PATH/gen_ota_conf )
+$(shell $(LOCAL_PATH)/gen_ota_conf )
 LOCAL_MODULE_TAGS := optional
 LOCAL_PRIVILEGED_MODULE := true
 LOCAL_PACKAGE_NAME := CosmicOTA
