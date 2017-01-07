@@ -18,8 +18,8 @@
 <resources>
 
     <!-- App -->
-    <string name="app_name">CosmicOTA</string>
-    <string name="app_title">System updates</string>
+    <string name="app_name">Updates</string>
+    <string name="app_title">Cosmic OS Updates</string>
 
     <!-- Categories -->
     <string name="ota_category">OTA</string>
@@ -43,10 +43,10 @@
     <string name="autoupdate_disabled">Automatic update is disabled</string>
 
     <!-- Notification -->
-    <string name="notification_title">ROM Update</string>
+    <string name="notification_title">Cosmic OS Update</string>
     <string name="notification_message">New update available!</string>
 
     <!-- Dialog -->
-    <string name="dialog_message">Checking for ROM updates, please wait…</string>
+    <string name="dialog_message">Checking for Cosmic OS updates, please wait…</string>
 
 </resources>
